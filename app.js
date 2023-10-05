@@ -76,6 +76,9 @@ app.get('/api/blog-search', async (req, res) => {
   res.send(cachedResults);
 });
 
+app.all('*',(req,res)=>{
+    res.send('<h1>You Getting some error in url </h1>')
+})
 app.listen(3000, () => {
   console.log("Server is running on port 3000");
 });
