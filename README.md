@@ -10,7 +10,7 @@ A Node.js application that provides statistics and search functionality for a co
 
 ## Configuration
 
-Before running the application, make sure to set the `adminSecret` in `index.js` to your Hasura admin secret.
+Before running the application, make sure to set the `adminSecret` in `app.js` to your Hasura admin secret.
 
 ## Usage
 
